@@ -10,4 +10,6 @@ This is a basic Node.js app running inside Docker. Ideal for testing, learning, 
 If you just want to run the app:
 
 docker pull sanjaykarmakar/first-docker-node-app
+
+
 docker run -p 3000:3000 sanjaykarmakar/first-docker-node-app# first-docker-node-app
