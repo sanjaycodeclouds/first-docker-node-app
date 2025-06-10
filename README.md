@@ -12,4 +12,4 @@ If you just want to run the app:
 docker pull sanjaykarmakar/first-docker-node-app
 
 
-docker run -p 3000:3000 sanjaykarmakar/first-docker-node-app# first-docker-node-app
+docker run -it -e PORT=4001 -p 4001:4001 sanjaykarmakar/first-docker-node-app
